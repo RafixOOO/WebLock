@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
         webView.setWebChromeClient(new WebChromeClient());
         webView.setWebViewClient(new MyWebViewClient());
 
-        String url = "http://10.100.100.21/messer/main.php";
+        String url = "https://aplikuj.hrappka.pl/work-time-register?widget_hash=dba2651f5087cc485c15bc9bbdce39cc";
         webView.loadUrl(url);
 
         swipeRefreshLayout.setOnRefreshListener(() -> webView.reload());
